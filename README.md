@@ -65,3 +65,7 @@ Run all cells top-to-bottom. The notebook covers:
 - Smoking status is the strongest predictor of high medical charges
 - Age and BMI show positive correlation with charges
 - Non-smokers cluster at significantly lower charge amounts
+
+
+**NOTE: Check the branch `colab_branch` for model trained on Google Colab**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mebre7/medical-charges-prediction/blob/colab_branch/notebook/medical_charges_model.ipynb)
