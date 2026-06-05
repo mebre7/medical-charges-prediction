@@ -60,6 +60,19 @@ Run all cells top-to-bottom. The notebook covers:
 3. **Modeling** — Linear Regression (scikit-learn `LinearRegression` and `SGDRegressor`)
 4. **Evaluation** — regression metrics (R², MAE, RMSE)
 
+## Google Colab
+
+1. Open the notebook directly: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mebre7/medical-charges-prediction/blob/colab_branch/notebook/medical_charges_model.ipynb)
+
+2. Download the dataset from [Machine-Learning-with-R-datasets](https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv) and upload it to Google Drive:
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+medical_df = pd.read_csv('/content/drive/MyDrive/path_to_your_file/<file_name>.csv')
+```
+
+All required libraries (`pandas`, `numpy`, `matplotlib`, `plotly`, `scikit-learn`, `seaborn`) are pre-installed in Colab.
+
 ## Key Insights
 
 - Smoking status is the strongest predictor of high medical charges
